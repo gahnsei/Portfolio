@@ -1,13 +1,25 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mySection {
+  height: 100%;
+  width: 100%;
+}
+
+.AboutMe {
+  background-color: #202c39;
+}
+
+.Projects {
+  background-color: #d64933;
+}
+
+.Skills {
+  background-color: #f7b32b;
+}
+
+.ContactMe {
+  background-color: #f2f7f2;
 }
