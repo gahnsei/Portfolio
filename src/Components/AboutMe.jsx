@@ -3,7 +3,9 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="section">
-      <div className="mySection AboutMe">About Me</div>
+      <div className="mySection AboutMe">
+        <a href={`#s3`}>About Me</a>
+      </div>
     </div>
   );
 }

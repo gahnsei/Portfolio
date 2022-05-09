@@ -23,3 +23,24 @@
 .ContactMe {
   background-color: #f2f7f2;
 }
+
+#fp-nav.fp-right {
+  right: 0 !important;
+  left: 1rem;
+}
+
+#fp-nav.fp-right span {
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
