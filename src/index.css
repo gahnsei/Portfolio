@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif, "Montserrat";
+  color: white;
 }
 
 .mySection {
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .AboutMe {
@@ -60,4 +64,9 @@ header {
 
 .menu i {
   font-size: 1.5rem;
+}
+
+.about-job {
+  font-family: "Montserrat";
+  font-size: 3rem;
 }
