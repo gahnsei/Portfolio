@@ -4,15 +4,16 @@ import App from "../App";
 //   require("./statics/fullpage.scrollHorizontally.min");
 // };
 
-const Fullpage = () => (
+const FullPage = () => (
   <ReactFullpage
     // pluginWrapper={pluginWrapper}
 
     //fullpage options
     licenseKey={"YOUR_KEY_HERE"}
-    scrollingSpeed={1000} /* Options here */
-    scrollHorizontally={true} /* Because we are using the extension */
-    scrollHorizontallyKey={"YOUR KEY HERE"}
+    scrollingSpeed={500} /* Options here */
+    autoScrolling={true}
+    navigation={true}
+    anchors={[`s1`, `s2`, `s3`, `s4`]}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
@@ -23,4 +24,4 @@ const Fullpage = () => (
   />
 );
 
-export default Fullpage;
+export default FullPage;
