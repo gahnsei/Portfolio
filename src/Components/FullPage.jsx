@@ -6,11 +6,8 @@ import App from "../App";
 
 const FullPage = () => (
   <ReactFullpage
-    // pluginWrapper={pluginWrapper}
-
-    //fullpage options
     licenseKey={"YOUR_KEY_HERE"}
-    scrollingSpeed={500} /* Options here */
+    scrollingSpeed={500}
     navigation={true}
     anchors={[`s1`, `s2`, `s3`, `s4`]}
     controlArrows={false}
