@@ -6,19 +6,16 @@ function NavBar() {
       <span>Sei Gahn</span>
       <ul class="menu">
         <li>
-          <a href="#s1">k</a>
+          <a href="/#s1">About</a>
         </li>
         <li>
-          {" "}
-          <a href="#s2">k</a>
+          <a href="#s2">Projects</a>
         </li>
         <li>
-          {" "}
-          <a href="#s3">k</a>
+          <a href="#s3">Skills</a>
         </li>
         <li>
-          {" "}
-          <a href="#s4">k</a>
+          <a href="#s4">Contact</a>
         </li>
       </ul>
     </header>
