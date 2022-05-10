@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <div className="section">
       <div className="mySection AboutMe">
-        <a href={`#s3`}>About Me</a>
+        <span className="about-job">Software Developer</span>
       </div>
     </div>
   );

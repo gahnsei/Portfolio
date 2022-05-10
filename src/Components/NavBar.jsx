@@ -6,7 +6,7 @@ function NavBar() {
       <span>Sei Gahn</span>
       <ul class="menu">
         <li>
-          <a href="/#s1">About</a>
+          <a href="#s1">About</a>
         </li>
         <li>
           <a href="#s2">Projects</a>
