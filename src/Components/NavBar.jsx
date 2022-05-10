@@ -17,6 +17,20 @@ function NavBar() {
         <li>
           <a href="#s4">Contact</a>
         </li>
+        <li>
+          <a href="https://github.com/gahnsei" target="_blank" rel="noreferrer">
+            <i className="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/sei-gahn/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
       </ul>
     </header>
   );
