@@ -175,3 +175,31 @@ p {
 .skill-card:hover * {
   color: #060f3f;
 }
+
+.ContactMe .section-div {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.ContactMe p {
+  text-align: left;
+  font-size: 0.75rem;
+  color: rgb(218, 218, 218);
+}
+
+.contact-email {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+}
+
+.contact-email i {
+  margin-right: 0.5rem;
+}
+
+.ContactMe h3 {
+  margin-bottom: 1rem;
+}
+
+.ContactMe .section-label {
+  margin-bottom: 2rem;
+}
