@@ -5,12 +5,12 @@ function AboutMe() {
   return (
     <div className="section">
       <div className="mySection AboutMe">
-        <div className="about-div">
-          <span className="about-job">Software Developer</span>
+        <div className="section-div">
+          <span className="section-label">Software Developer</span>
           <img className="about-picture" src={myPicture} alt="Sei Gahn" />
         </div>
-        <div className="about-div">
-          <span className="about-job">About Me</span>
+        <div className="section-div">
+          <span className="section-label">About Me</span>
           <p className="about-description">
             What started off as a childhood interest has now grown into a full
             blown profession. Software Development is the driving force for the
