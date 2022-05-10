@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif, "Montserrat";
 }
 
 .mySection {
@@ -9,19 +10,19 @@
 }
 
 .AboutMe {
-  background-color: #202c39;
+  background-color: #4767c7;
 }
 
 .Projects {
-  background-color: #d64933;
+  background-color: #1f3291;
 }
 
 .Skills {
-  background-color: #f7b32b;
+  background-color: #060f3f;
 }
 
 .ContactMe {
-  background-color: #f2f7f2;
+  background-color: #03071b;
 }
 
 #fp-nav.fp-right {
@@ -33,11 +34,21 @@
   background-color: white;
 }
 
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  padding: 1rem 10rem;
+  color: white;
+}
+
 .menu {
   display: flex;
   list-style: none;
-  position: absolute;
-  z-index: 1;
 }
 
 .menu a {
