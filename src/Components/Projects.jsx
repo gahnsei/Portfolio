@@ -6,6 +6,40 @@ function Projects() {
       <div className="slide">
         <div className="mySection Projects">
           <div className="section-div">
+            <span className="section-label">Comix</span>
+            <a
+              href="https://github.com/gahnsei/Comix"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              Github
+            </a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+              asperiores dolorum, eos facilis nisi eaque dolorem aliquam minus
+              dolor accusamus tempora doloribus? Illo, eveniet. Quisquam a
+              deleniti numquam aliquam consectetur! Eum, ex. Rem atque earum
+              placeat, unde qui libero quasi eos nam perspiciatis molestiae
+              aliquam praesentium maxime veritatis deserunt eligendi non dolores
+              aliquid autem ipsam maiores error. In, corrupti. Deserunt. Nulla
+              ullam praesentium veritatis repudiandae ut sint nihil, modi fugiat
+              suscipit sit consectetur doloribus rerum aspernatur odit eum
+              ducimus vero beatae expedita sequi corporis ad. Rerum recusandae
+              vitae alias illum.
+            </p>
+          </div>
+          <iframe
+            title="Comix Demo"
+            src="https://www.youtube.com/embed/tQ3lTeP62TI"
+            allowfullscreen="true"
+            className="project-demo"
+          ></iframe>
+        </div>
+      </div>
+      <div className="slide">
+        <div className="mySection Projects">
+          <div className="section-div">
             <span className="section-label">MyVy</span>
             <a
               href="https://github.com/gahnsei/MyVy"
@@ -35,13 +69,6 @@ function Projects() {
             allowfullscreen="true"
             className="project-demo"
           ></iframe>
-        </div>
-      </div>
-      <div className="slide">
-        <div className="mySection Projects">
-          <div className="section-div">
-            <span className="section-label">MyVy</span>
-          </div>
         </div>
       </div>
     </div>
