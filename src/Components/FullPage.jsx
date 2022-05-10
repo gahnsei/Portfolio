@@ -12,6 +12,8 @@ const FullPage = () => (
     anchors={[`s1`, `s2`, `s3`, `s4`]}
     controlArrows={false}
     slidesNavigation={true}
+    showActiveTooltip={true}
+    navigationTooltips={[`About`, `Projects`, `Skills`, `Contact`]}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>

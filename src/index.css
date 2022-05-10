@@ -8,6 +8,7 @@
 .mySection {
   height: 100%;
   width: 100%;
+  padding-left: 3rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -36,7 +37,7 @@
 }
 
 #fp-nav.fp-right span {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.479) !important;
 }
 
 header {
@@ -99,7 +100,7 @@ p {
 }
 
 .fp-bottom span {
-  background-color: white !important;
+  background-color: rgba(255, 255, 255, 0.479) !important;
 }
 
 .Projects .section-label {
@@ -120,4 +121,10 @@ p {
 .project-demo {
   height: 25rem;
   aspect-ratio: 1.75;
+}
+
+.fp-tooltip {
+  right: unset !important;
+  left: 1.5rem;
+  color: rgba(255, 255, 255, 0.479) !important;
 }
