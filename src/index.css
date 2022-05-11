@@ -30,6 +30,7 @@
 
 .ContactMe {
   background-color: #03071b;
+  position: relative;
 }
 
 #fp-nav.fp-right {
@@ -93,7 +94,7 @@ header {
 
 p {
   width: 25rem;
-  text-align: center;
+  text-align: left;
   font-size: 1.1rem;
 }
 
@@ -174,4 +175,136 @@ p {
 
 .skill-card:hover * {
   color: #060f3f;
+}
+
+.ContactMe .section-div {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.ContactMe p {
+  text-align: left;
+  color: rgb(218, 218, 218);
+}
+
+.contact-email {
+  margin-top: 1rem;
+}
+
+.contact-email i {
+  margin-right: 0.5rem;
+}
+
+.ContactMe h3 {
+  margin-bottom: 1rem;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.email-label {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.input-div input {
+  height: 3rem;
+  width: 20rem;
+  background-color: rgb(75, 75, 75);
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding-left: 1rem;
+}
+
+.email-message {
+  height: 6rem !important;
+  width: 20rem !important;
+  background-color: rgb(75, 75, 75);
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.contact-button {
+  padding: 1rem;
+  background-color: transparent;
+  border: 0.1rem solid rgb(75, 75, 75);
+  color: rgb(134, 134, 134);
+  cursor: pointer;
+}
+
+.email-label span {
+  margin-left: 1rem;
+  color: red;
+}
+
+.modal-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.379);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+  background-color: rgb(21, 20, 28);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal i {
+  font-size: 2rem;
+}
+
+.modal-label {
+  font-size: 1.5rem;
+}
+
+.modal-message {
+  color: rgb(117, 117, 117);
+}
+
+.modal-button {
+  padding-block: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: white;
+  font-size: 1.25rem;
+  color: black;
+  cursor: pointer;
+}
+
+.loading {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: rgb(134, 134, 134);
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes loading {
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
