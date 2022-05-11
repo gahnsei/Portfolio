@@ -183,13 +183,11 @@ p {
 
 .ContactMe p {
   text-align: left;
-  font-size: 0.75rem;
   color: rgb(218, 218, 218);
 }
 
 .contact-email {
   margin-top: 1rem;
-  font-size: 0.75rem;
 }
 
 .contact-email i {
