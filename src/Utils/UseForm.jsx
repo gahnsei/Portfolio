@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 
 function useForm() {
   const [contactForm, setContactForm] = useState({
@@ -59,7 +60,11 @@ function useForm() {
       email: ``,
       message: ``
     });
-    alert(JSON.stringify(contactForm));
+
+    axios.post(
+      `https://public.herotofu.com/v1/56996790-d16c-11ec-a821-6590c8b23a22`,
+      { ...contactForm }
+    );
   };
 
   return { handleFormSubmit, formError, contactForm, handleFormChange };
