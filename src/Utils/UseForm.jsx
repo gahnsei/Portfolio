@@ -14,6 +14,8 @@ function useForm() {
     message: false
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleFormChange = (event) => {
     const { name, value } = event.target;
 
@@ -29,7 +31,8 @@ function useForm() {
     }));
   };
 
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit = (event, openModal) => {
+    setLoading(true);
     event.preventDefault();
     let emailEror = false;
     let nameError = false;
@@ -55,19 +58,30 @@ function useForm() {
 
     if (nameError || emailEror || messageError) return;
 
-    setContactForm({
-      name: ``,
-      email: ``,
-      message: ``
-    });
-
-    axios.post(
-      `https://public.herotofu.com/v1/56996790-d16c-11ec-a821-6590c8b23a22`,
-      { ...contactForm }
-    );
+    axios
+      .post(
+        `https://public.herotofu.com/v1/56996790-d16c-11ec-a821-6590c8b23a22`,
+        { ...contactForm }
+      )
+      .catch((err) => console.log(err))
+      .finally(() => {
+        openModal();
+        setContactForm({
+          name: ``,
+          email: ``,
+          message: ``
+        });
+        setLoading(false);
+      });
   };
 
-  return { handleFormSubmit, formError, contactForm, handleFormChange };
+  return {
+    handleFormSubmit,
+    formError,
+    contactForm,
+    handleFormChange,
+    loading
+  };
 }
 
 export default useForm;
