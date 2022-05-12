@@ -61,10 +61,13 @@ header {
   align-items: center;
 }
 
-.menu a {
+.menu li {
   color: white;
-  text-decoration: none;
   margin-right: 1rem;
+}
+
+.menu a {
+  text-decoration: none;
 }
 
 .menu i {
