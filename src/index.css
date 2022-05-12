@@ -444,7 +444,7 @@ p {
   }
   .AboutMe {
     justify-content: space-evenly;
-    padding-top: 0;
+    padding-top: 1rem;
   }
   .AboutMe .section-div:first-child .section-label {
     width: 100%;
