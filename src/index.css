@@ -74,6 +74,19 @@ header {
   font-size: 1.5rem;
 }
 
+.subnav-icon {
+  cursor: pointer;
+}
+
+.sub-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
 .section-div {
   display: flex;
   flex-direction: column;
@@ -314,4 +327,40 @@ p {
 
 .fp-watermark {
   display: none !important;
+}
+
+@media (max-width: 992px) {
+  header {
+    padding: 1rem 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .menu * {
+    font-size: 1rem;
+  }
+  .menu i {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  header {
+    padding: 1rem 2rem;
+  }
+  .menu * {
+    font-size: 0.7rem;
+  }
+  .menu i {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .menu * {
+    font-size: 0.4rem;
+  }
+  .menu i {
+    font-size: 0.4rem;
+  }
 }
