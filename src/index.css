@@ -332,10 +332,10 @@ p {
 }
 @media (min-width: 992px) {
   .Projects {
-    padding-left: 5rem;
+    padding-left: 7rem;
   }
   .project-demo {
-    margin-left: 5rem;
+    margin-left: 2.5rem;
   }
 }
 
