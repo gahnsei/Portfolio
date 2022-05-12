@@ -330,13 +330,18 @@ p {
 .fp-watermark {
   display: none !important;
 }
-
 @media (min-width: 992px) {
   .Projects {
-    padding-left: 8rem;
+    padding-left: 5rem;
   }
   .project-demo {
-    margin-left: 2rem;
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-demo {
+    margin-left: 10rem;
   }
 }
 
@@ -452,6 +457,11 @@ p {
   }
   .project-demo {
     height: 9rem;
+    margin-top: 0;
+  }
+  .Projects {
+    justify-content: space-evenly;
+    padding-top: 0;
   }
 }
 
