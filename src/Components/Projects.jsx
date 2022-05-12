@@ -26,12 +26,14 @@ function Projects() {
               within the Marvel universe.
             </p>
           </div>
-          <iframe
-            title="Comix Demo"
-            src="https://www.youtube.com/embed/tQ3lTeP62TI"
-            allowfullscreen="true"
-            className="project-demo"
-          ></iframe>
+          <div className="section-div">
+            <iframe
+              title="Comix Demo"
+              src="https://www.youtube.com/embed/tQ3lTeP62TI"
+              allowfullscreen="true"
+              className="project-demo"
+            ></iframe>
+          </div>
         </div>
       </div>
       <div className="slide">
@@ -60,12 +62,14 @@ function Projects() {
               artists.
             </p>
           </div>
-          <iframe
-            title="MyVy Demo"
-            src="https://www.youtube.com/embed/I7phA_0PQtw"
-            allowfullscreen="true"
-            className="project-demo"
-          ></iframe>
+          <div className="section-div">
+            <iframe
+              title="MyVy Demo"
+              src="https://www.youtube.com/embed/I7phA_0PQtw"
+              allowfullscreen="true"
+              className="project-demo"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>

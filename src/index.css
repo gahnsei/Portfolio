@@ -20,6 +20,8 @@
 .Projects {
   background-color: #1f3291;
   padding-left: 3rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .Skills {
@@ -138,7 +140,7 @@ p {
 }
 
 .project-demo {
-  height: 25rem;
+  height: 25vw;
   aspect-ratio: 1.75;
 }
 
@@ -329,6 +331,15 @@ p {
   display: none !important;
 }
 
+@media (min-width: 992px) {
+  .Projects {
+    padding-left: 8rem;
+  }
+  .project-demo {
+    margin-left: 2rem;
+  }
+}
+
 @media (max-width: 992px) {
   header {
     padding: 1rem 5rem;
@@ -371,12 +382,27 @@ p {
     align-self: flex-start;
     margin-bottom: 1rem;
   }
+
+  .project-demo {
+    height: 20rem;
+    margin-top: 2rem;
+  }
+
+  .Projects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .section-div {
     padding-left: 5rem;
     padding-right: 2.5rem;
+  }
+  .project-demo {
+    height: 15rem;
   }
 }
 
@@ -396,6 +422,9 @@ p {
   .about-picture {
     margin-bottom: 1rem;
   }
+  .project-demo {
+    height: 10rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -410,6 +439,7 @@ p {
   }
   .AboutMe {
     justify-content: space-evenly;
+    padding-top: 0;
   }
   .AboutMe .section-div:first-child .section-label {
     width: 100%;
@@ -419,6 +449,9 @@ p {
     height: 10rem;
     width: 10rem;
     border-radius: 1rem;
+  }
+  .project-demo {
+    height: 9rem;
   }
 }
 
