@@ -16,17 +16,14 @@ function Projects() {
               Github
             </a>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-              asperiores dolorum, eos facilis nisi eaque dolorem aliquam minus
-              dolor accusamus tempora doloribus? Illo, eveniet. Quisquam a
-              deleniti numquam aliquam consectetur! Eum, ex. Rem atque earum
-              placeat, unde qui libero quasi eos nam perspiciatis molestiae
-              aliquam praesentium maxime veritatis deserunt eligendi non dolores
-              aliquid autem ipsam maiores error. In, corrupti. Deserunt. Nulla
-              ullam praesentium veritatis repudiandae ut sint nihil, modi fugiat
-              suscipit sit consectetur doloribus rerum aspernatur odit eum
-              ducimus vero beatae expedita sequi corporis ad. Rerum recusandae
-              vitae alias illum.
+              Comix is a personal project I created to help new coming Marvel
+              fans to immerse themselves into the Marvel universe. Comix is an
+              extension of the Marvel database that gives users the ability to
+              save their favorite comic series and characters to their created
+              accounts. This project was created to display my understanding of
+              ReactJS, HTML5, CSS3, SQL, PostgreSQL, and ExpressJS. I used the
+              Marvel api to compile data on each character and comic series
+              within the Marvel universe.
             </p>
           </div>
           <iframe
@@ -50,7 +47,7 @@ function Projects() {
               Github
             </a>
             <p>
-              MyVy is a personal project that i created to display my
+              MyVy is a personal project that I created to display my
               understanding of JavaScript, HTML5, CSS3, SQL, Postgres, and SASS.
               Multiple APIs where used to create my database; Spotify API, and
               Coverr API. The concept of MyVy is an e-commerce website that
