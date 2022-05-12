@@ -32,7 +32,6 @@ function useForm() {
   };
 
   const handleFormSubmit = (event, openModal) => {
-    setLoading(true);
     event.preventDefault();
     let emailEror = false;
     let nameError = false;
@@ -57,6 +56,8 @@ function useForm() {
     }));
 
     if (nameError || emailEror || messageError) return;
+
+    setLoading(true);
 
     axios
       .post(
