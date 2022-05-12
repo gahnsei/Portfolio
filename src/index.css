@@ -354,7 +354,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: unset;
-    padding-top: 3rem;
   }
 
   p {
@@ -444,9 +443,9 @@ p {
   }
   .AboutMe {
     justify-content: space-evenly;
-    padding-top: 1rem;
   }
   .AboutMe .section-div:first-child .section-label {
+    margin-top: 2rem;
     width: 100%;
     font-size: 2rem;
   }
