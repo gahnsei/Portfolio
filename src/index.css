@@ -333,6 +333,51 @@ p {
   header {
     padding: 1rem 5rem;
   }
+
+  .AboutMe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: unset;
+    padding-top: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+    width: fit-content;
+  }
+
+  .section-div {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .about-picture {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .AboutMe .section-div:first-child {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .AboutMe .section-div:first-child .section-label {
+    width: 65%;
+  }
+
+  .AboutMe .section-div:last-child .section-label {
+    font-size: 1.25rem;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-div {
+    padding-left: 5rem;
+    padding-right: 2.5rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -341,6 +386,15 @@ p {
   }
   .menu i {
     font-size: 1rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  .AboutMe .section-div:first-child .section-label {
+    margin-bottom: 0.5rem;
+  }
+  .about-picture {
+    margin-bottom: 1rem;
   }
 }
 
@@ -353,6 +407,18 @@ p {
   }
   .menu i {
     font-size: 0.7rem;
+  }
+  .AboutMe {
+    justify-content: space-evenly;
+  }
+  .AboutMe .section-div:first-child .section-label {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .about-picture {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1rem;
   }
 }
 
