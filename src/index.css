@@ -159,8 +159,8 @@ p {
 }
 
 .skill-card {
-  width: 11rem;
-  height: 11rem;
+  width: 11vw;
+  height: 11vw;
   border: 0.25rem solid white;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -172,11 +172,11 @@ p {
 }
 
 .skill-card i {
-  font-size: 4rem;
+  font-size: 5vw;
 }
 
 .skill-card span {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .Skills .section-label {
@@ -461,6 +461,20 @@ p {
   .Projects {
     justify-content: space-evenly;
     padding-top: 0;
+  }
+  .Skills .section-label {
+    text-align: center;
+    align-self: center;
+    margin-left: 0;
+  }
+  .skill-container {
+    width: 80vw;
+    padding-left: 25vw;
+  }
+  .skill-card {
+    margin-right: 1.5rem;
+    width: 12.5vw;
+    height: 12.5vw;
   }
 }
 
