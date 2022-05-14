@@ -68,6 +68,10 @@ header {
   margin-right: 1rem;
 }
 
+.menu li:last-child {
+  margin-right: 0;
+}
+
 .menu a {
   text-decoration: none;
 }
@@ -398,15 +402,42 @@ p {
     align-items: flex-start;
     padding-left: 0;
   }
+
+  .ContactMe {
+    justify-content: flex-start;
+    padding-left: 7rem;
+  }
+
+  .ContactMe .section-div:first-child {
+    width: 20rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+  }
+
+  .ContactMe .section-div {
+    padding: 0;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .section-div {
     padding-left: 5rem;
     padding-right: 2.5rem;
   }
   .project-demo {
     height: 15rem;
+  }
+  .ContactMe {
+    padding-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .ContactMe .section-label {
+    margin-bottom: 1rem;
+  }
+  .contact-info {
+    display: none;
   }
 }
 
@@ -475,6 +506,30 @@ p {
     margin-right: 1.5rem;
     width: 12.5vw;
     height: 12.5vw;
+  }
+
+  .ContactMe {
+    padding-left: 5rem;
+  }
+
+  .ContactMe .section-div:first-child {
+    align-self: flex-start;
+  }
+
+  .ContactMe .section-div:last-child {
+    align-self: flex-start;
+  }
+
+  .input-div input {
+    width: 15rem;
+  }
+
+  .input-div {
+    margin-bottom: 0.5rem;
+  }
+
+  .email-message {
+    width: 15rem !important;
   }
 }
 
