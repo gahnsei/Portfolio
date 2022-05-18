@@ -7,14 +7,24 @@ function Projects() {
         <div className="mySection Projects">
           <div className="section-div">
             <span className="section-label">Comix</span>
-            <a
-              href="https://github.com/gahnsei/Comix"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              Github
-            </a>
+            <div className="link-container">
+              <a
+                href="https://sg-comix.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Hosted Site
+              </a>
+              <a
+                href="https://github.com/gahnsei/Comix"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Github
+              </a>
+            </div>
             <p>
               Comix is a personal project I created to help new coming Marvel
               fans to immerse themselves into the Marvel universe. Comix is an
@@ -40,14 +50,24 @@ function Projects() {
         <div className="mySection Projects">
           <div className="section-div">
             <span className="section-label">MyVy</span>
-            <a
-              href="https://github.com/gahnsei/MyVy"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              Github
-            </a>
+            <div className="link-container">
+              <a
+                href="https://myvy.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Hosted Site
+              </a>
+              <a
+                href="https://github.com/gahnsei/Comix"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                Github
+              </a>
+            </div>
             <p>
               MyVy is a personal project that I created to display my
               understanding of JavaScript, HTML5, CSS3, SQL, Postgres, and SASS.
